@@ -1,0 +1,50 @@
+.bg-background {
+  background-image: url(../../assets//images/footer.ca93d5c3a57447718b77.jpg);
+  height: auto;
+}
+
+.bg-linear {
+  background: linear-gradient(180deg, #1d0b34, rgba(29, 11, 52, 0));
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+.bg-gradian-box {
+  margin-bottom: 3.5rem;
+  padding: 40px 48px;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  background: linear-gradient(249deg, rgba(66, 86, 103, 0.35), rgba(32, 41, 50, 0.4));
+}
+.test-start h2 {
+  font-size: 3.5rem;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(143deg, #fff 18.17%, hsla(0, 0%, 100%, 0) 152.61%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+#text-footer > a {
+  color: inherit;
+}
+.box-footer {
+  justify-content: center;
+  align-items: center;
+}
+.bottom-footer {
+  font-size: 14px;
+  color: hsla(0, 0%, 100%, 0.5);
+  text-align: center;
+}
+#root
+  > div
+  > div
+  > div.footer
+  > div
+  > div
+  > div.container.bottom-footer
+  > div.d-flex.justify-content-center.align-items-center
+  > img {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  opacity: 0.5;
+}

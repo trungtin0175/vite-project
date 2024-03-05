@@ -1,10 +1,14 @@
 import DefaultLayout from '~/layout/DefaultLayout'
 import Home from '~/pages/Home'
 import Login from '~/pages/Login'
+// import Games from '~/pages/Games'
+// import Mission from '~/pages/Mission'
 const routes = {
   Home: '/',
   Login: '/login',
-  Register: '/register'
+  Register: '/register',
+  Games: '/games',
+  Mission: '/mission'
 }
 export const publicRoutes = [
   {
@@ -17,6 +21,16 @@ export const publicRoutes = [
     component: Login,
     layout: DefaultLayout
   }
+  // {
+  //   path: routes.Games,
+  //   component: Games,
+  //   layout: DefaultLayout
+  // },
+  // {
+  //   path: routes.Mission,
+  //   component: Mission,
+  //   layout: DefaultLayout
+  // }
 ]
 export const privateRoutes = []
 export default routes

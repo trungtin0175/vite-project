@@ -1,4 +1,315 @@
-.btn {
-  background-color: red;
-  font-size: 1rem;
+.wrapper {
+  background: radial-gradient(74.22% 74.22% at 49.65% 72.5%, rgb(26, 32, 77) 0px, rgb(19, 0, 42) 100%);
+  background: radial-gradient(74.22% 74.22% at 49.65% 72.5%, #1a204d 0, #13002a 100%);
+  // height: 10000px;
+  height: 4400px;
+  // margin-top: -76px;
 }
+
+.bg-before {
+  // background-image: url(https://oxoa.games/static/media/line.1f365bc1fb52f23ba31c.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  overflow: hidden;
+}
+.bg-banner {
+  // background-image: url(https://oxoa.games/static/media/banner.7c38d70b5ea3ccdfc2ee.png);
+  background-size: contain;
+  background-repeat: repeat-x;
+  width: 1900px;
+  height: 815px;
+  position: absolute;
+}
+// .bg-contain {
+//   background-size: contain;
+// }
+// .bg-repeat-x {
+//   background-repeat: repeat-x;
+// }
+.wrapper-header {
+  width: 1900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  // width: 1000px;
+  height: 40px;
+  padding: 40px 0;
+  // margin-top: 40px;
+  // background-color: #fff;
+  position: relative;
+  max-width: 1256px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.header-container {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.header-logo {
+  width: 220px;
+  margin-right: 280px;
+}
+.header-logo-link {
+  display: block;
+}
+.header-logo-img {
+  height: auto;
+  max-width: 100%;
+}
+.header-item {
+  display: flex;
+  align-items: center;
+}
+.header-item-center {
+  font-size: 24px;
+  color: #fff;
+  padding: 0 2rem;
+  font-weight: 400;
+
+  &:hover {
+    color: #fff;
+  }
+}
+.header-item-center__Link {
+  color: #fff;
+  padding-left: 32px;
+
+  &:hover {
+    color: #fff;
+  }
+}
+.header-item-center__img {
+  width: 2.4rem;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  vertical-align: middle;
+}
+//container
+.container {
+  padding-top: 148px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1440px;
+  text-align: center;
+  position: relative;
+  margin-top: 150px;
+}
+//heading
+.heading-text {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(143deg, #fff 18.17%, hsla(0, 0%, 100%, 0) 152.61%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin-bottom: 1.5rem;
+  font-size: 85px;
+  line-height: 100px;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  font-weight: 800;
+}
+.title-text {
+  max-width: 750px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 32px;
+  line-height: 1.5;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.body-text {
+  max-width: 1140px;
+  padding-bottom: 80px;
+  color: hsla(0, 0%, 100%, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+.footer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 70px;
+}
+.footer-text-link {
+  min-width: 356px;
+  margin-right: 1.5rem;
+  width: auto;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 2.25rem;
+  text-decoration: inherit;
+}
+.footer-text-btn {
+  -webkit-backdrop-filter: blur(96px);
+  backdrop-filter: blur(96px);
+  background: linear-gradient(92deg, #ff56f6 21.43%, #b936ee 50.63%, #3bace2 100%, #406aff 117.04%);
+  border-color: transparent;
+  border-radius: 2px;
+  border-width: 1px;
+  box-shadow: 0 4px 97px 0 rgba(255, 86, 246, 0.51);
+  display: inline-block;
+  font-size: 20px;
+  padding: 12px 16px;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  font-family: Orbitron;
+  font-weight: 700;
+  line-height: 1.5;
+}
+//Slider
+.slider {
+  padding-bottom: 2.4rem;
+  padding-top: 2.4rem;
+  margin-bottom: 120px;
+  background: linear-gradient(
+    90deg,
+    transparent -3.7%,
+    rgba(0, 0, 0, 0.5) 26.56%,
+    rgba(0, 0, 0, 0.5) 64.37%,
+    transparent 104.35%
+  );
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+  border-top: 1px solid rgb(255 255 255 / var(--tw-border-opacity));
+  border-bottom: 1px solid rgb(255 255 255 / var(--tw-border-opacity));
+  overflow: hidden;
+  position: relative;
+}
+@media (max-width: 1239px) {
+}
+
+@media (max-width: 1023px) {
+}
+@media (max-width: 739px) {
+}
+// @media (max-width: 1024px) {
+//   .bg-before {
+//     // background-image: url(https://oxoa.games/static/media/line.1f365bc1fb52f23ba31c.png);
+//     width: 1024px;
+//   }
+//   .bg-banner {
+//     // background-image: url(https://oxoa.games/static/media/banner.7c38d70b5ea3ccdfc2ee.png);
+//     width: 1024px;
+//   }
+//   .wrapper {
+//     height: 6000px;
+//   }
+//   .footer-text-link {
+//     max-width: 200px;
+//     margin-right: 1.5rem;
+//     // width: auto;
+//     width: 100px;
+//   }
+//   .footer-text-btn {
+//     font-size: 17px;
+//   }
+// }
+// @media (min-width: 768px) and (max-width: 1023px) {
+//   /* CSS */
+//   .bg-before {
+//     // background-image: url(https://oxoa.games/static/media/line.1f365bc1fb52f23ba31c.png);
+//     background-position: 50%;
+//     background-repeat: no-repeat;
+//     background-size: contain;
+//     content: '';
+//     height: 100%;
+//     position: absolute;
+//     top: 50%;
+//     width: 768px;
+//     overflow: hidden;
+//   }
+//   .bg-banner {
+//     // background-image: url(https://oxoa.games/static/media/banner.7c38d70b5ea3ccdfc2ee.png);
+//     background-size: contain;
+//     background-repeat: repeat-x;
+//     width: 768px;
+//     // max-width: 1024px;
+//     // height: 815px;
+//     position: absolute;
+//   }
+//   .wrapper {
+//     height: 6000px;
+//   }
+//   .footer-text-link {
+//     max-width: 200px;
+//     margin-right: 1.5rem;
+//     // width: auto;
+//     width: 100px;
+//   }
+//   .footer-text-btn {
+//     font-size: 17px;
+//   }
+// }
+//mobile
+// @media only screen and (max-width: 768px) {
+//   .bg-before {
+//     // background-image: url(https://oxoa.games/static/media/line.1f365bc1fb52f23ba31c.png);
+//     background-position: 50%;
+//     background-repeat: no-repeat;
+//     background-size: contain;
+//     content: '';
+//     height: 100%;
+//     position: absolute;
+//     top: 50%;
+//     max-width: 412px;
+//     overflow: hidden;
+//   }
+//   .bg-banner {
+//     // background-image: url(https://oxoa.games/static/media/banner.7c38d70b5ea3ccdfc2ee.png);
+//     background-size: contain;
+//     background-repeat: repeat-x;
+//     max-width: 412px;
+//     // max-width: 1024px;
+//     // height: 815px;
+//     position: absolute;
+//   }
+//   .wrapper {
+//     height: 6000px;
+//   }
+//   .footer-text-link {
+//     max-width: 200px;
+//     margin-right: 1.5rem;
+//     // width: auto;
+//     width: 100px;
+//   }
+//   .footer-text-btn {
+//     font-size: 17px;
+//   }
+//   .heading-text {
+//     font-size: 3.2rem;
+//     line-height: 1.5;
+//   }
+//   .title-text {
+//     font-size: 2.4rem;
+//   }
+//   .body-text {
+//     font-size: 1.6rem;
+//   }
+//   .footer-text {
+//     display: flex;
+//     flex-direction: column;
+//   }
+//   .footer-text-link {
+//     margin-bottom: 10px;
+//   }
+// }
