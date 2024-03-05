@@ -1,0 +1,154 @@
+#root {
+  text-align: center;
+  background-color: rgb(24, 5, 48);
+  color: white;
+  font-family: Orbitron;
+  font-size: 20px;
+  /* padding-top: 50px; */
+}
+
+.bacground_group {
+  background: linear-gradient(249deg, rgba(66, 86, 103, 0.35), rgba(32, 41, 50, 0.4));
+}
+.text_gradian {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(143deg, #fff 18.17%, hsla(0, 0%, 100%, 0) 152.61%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-family: Orbitron;
+}
+.text_p {
+  font-family: Manrope, sans-serif !important;
+  font-size: 14px;
+}
+
+.text {
+  color: #4c4d5b;
+}
+.custom-font-weight {
+  font-weight: 600;
+  font-size: 14px;
+}
+.text-start h1 {
+  font-size: 4.5rem;
+}
+.container-mobile {
+  display: flex;
+}
+.title-game {
+  display: flex;
+  justify-content: space-around;
+}
+#root > div > div > div > div.relative.container > div.d-flex > div.flex-1.mb-8.py-10.text-start.pb-5 > p {
+  font-size: 20px;
+}
+#root > div > div {
+  margin-top: 100px;
+}
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 991px) {
+  .container {
+    max-width: 991px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* Kiểu CSS cho điện thoại di động */
+  #root > div > div.relative.container {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  #root > div > div.relative.container > div.d-flex > div.flex-1.mb-8.py-10.text-start.pb-5 {
+    padding-left: 10px;
+  }
+  #root > div > div.relative.container > div.container-fl.px-5 > div > div {
+    padding: 0;
+    display: block !important;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #root > div > div.relative.container > div.container-fl.px-5 > div > div {
+    padding: 0 !important;
+  }
+  #root > div > div.relative.container > div.container-fl.px-5 > div > div > div.me-5.sm\:mr-8.mb-4.xl\:mb-0 {
+    padding: 20px 0 !important;
+    margin: 0 !important;
+  }
+  #root > div > div.relative.container > div.container-fl.px-5 {
+    padding: 0 !important;
+  }
+  #root > div > div.relative.container > div.d-flex {
+    display: block !important;
+  }
+  #root > div > div.relative.container > div.d-flex > div:nth-child(2) > img {
+    width: -webkit-fill-available;
+  }
+  #root > div > div.relative.container > div.container-fl.px-5 {
+    padding: 0;
+  }
+  #root > div > div.relative.container > div.container-fl.px-5 {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  #root > div > div.relative.container > div.container-fl.px-5 > div {
+    padding: 0 !important;
+  }
+  /* #root > div > div.relative.container > div.container-fl.px-5 > div > div{
+        display: block !important;
+    } */
+  #root > div > div.bg-background > div > div.container.rounded.border.border-primary.bg-gradian-box > div {
+    display: block !important;
+  }
+  #root
+    > div
+    > div.relative.container
+    > div.container-fl.px-5
+    > div
+    > div
+    > div.text-start.group.cursor-pointer.overflow-hidden.relative
+    > div {
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Kiểu CSS cho máy tính bảng */
+  .container-mobile {
+    display: block;
+  }
+  .img-auto {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* Kiểu CSS cho máy tính để bàn */
+  .img-auto {
+    max-width: 100%;
+    height: auto;
+  }
+}

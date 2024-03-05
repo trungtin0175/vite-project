@@ -1,0 +1,218 @@
+/* 1 */
+.content {
+    background-image: url(../../img/banner.png);
+  }
+
+  .content_title {
+    color: #ffffff;
+    font-size: 80px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+
+  }
+  .main-content {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(../../img/main2.56572e1134aef45362a5.jpg);
+    /* Các thuộc tính background khác (tùy chọn) */
+  }
+  
+.container-indea{
+   /* margin-top: 150px;
+   margin-bottom: 150px; */
+   margin-top: 13%;
+   margin-bottom: 5%;
+
+}
+.container-mobile{
+    display: flex;
+}
+
+  .content_text p {
+    color: #ffffff;
+    font-size: 25px;
+  }
+  
+  .content_text p.font-bold {
+    font-size: 25px;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+  }
+  .content_text {
+    margin-top: 20px;
+  }
+  
+  /* 2 */
+  .content_pa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  
+  /* 3 */
+  .note_custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  .note_title {
+    font-family: "Orbitron", sans-serif;
+    font-size: 60px;
+  }
+  .p_title {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .p_content_game_text {
+    max-width: 90%;
+    margin: 0 auto;
+    white-space: pre-line;
+    font-size: 18px;
+  }
+  .text-gradient {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(
+      143deg,
+      #fff 18.17%,
+      hsla(0, 0%, 100%, 0) 152.61%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  
+  /* 4 */
+  .web3{
+      height: 80vh;
+      margin-bottom: 80px;
+  }
+  .web_3h2 {
+    font-size: 60px;
+    font-family: "Orbitron";
+  }
+  .web3_content {
+    display: flex;
+    margin-top: 70px;
+  justify-content: center;
+  align-items: center;
+  }
+  .web3_content_left_text {
+    text-align: left;
+    white-space: pre-line;
+    font-size: 24px;
+    color: #ffffff;
+  
+  }
+  .bg-gardient-box2 {
+  
+      background: linear-gradient(
+      102deg,
+      rgba(124, 121, 249, 0.15) 4.73%,
+      rgba(124, 121, 249, 0) 85.59%
+    );
+    border-radius: 0.75rem;
+  }
+  .font-semibold {
+    font-weight: 600;
+  }
+  .p-4 {
+      padding: 1rem;
+  }
+  .gap-colum{
+   width: 250px;
+
+  }
+  
+  /* 5 */
+  
+  
+  .bg-gardient-box3 {
+      margin-top: 30px;
+      -webkit-backdrop-filter: blur(7.5px);
+      backdrop-filter: blur(7.5px);
+      background: linear-gradient(249deg, rgba(66, 86, 103, .14), rgba(32, 41, 50, .16));
+      font-size: 25px;
+  
+  }
+  .choosen_border{
+    padding: 30px;
+      border: 1px solid rgba(16, 44, 134, 0.479);
+  }
+  
+  .rounded-xl {
+      border-radius: 0.75rem;
+  }
+  
+  .choosen{
+      display: flex;
+  }
+  
+  .choosen_text{
+      font-size: 60px;
+      font-family: "Orbitron";
+      -webkit-text-fill-color: transparent;
+      background: linear-gradient(143deg, #fff 18.17%, hsla(0, 0%, 100%, 0) 152.61%);
+      background-clip: text;
+      -webkit-background-clip: text;
+  
+  }
+  .choosen_main{
+      margin-top: 50px;
+  }
+  .choosen_box{
+    padding: 1rem;
+  }
+  .choosen_box img{
+    /* width: 200px; */
+  object-fit: cover;
+  }
+
+  #root > div > div .row{
+    margin-right: 0px !important;
+  }
+  .container-miss{
+    height: 100vh;
+  }
+  @media only screen and (max-width: 768px) {
+    /* Kiểu CSS cho điện thoại di động */
+    .container-mobile{
+        display: block;
+    }
+    .main-content{
+        width: 100%;
+    }
+   .img-auto{
+        max-width: 100%;
+        height: auto;
+    }
+    
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Kiểu CSS cho máy tính bảng */
+    .container-mobile{
+        display: block;
+     }
+     .img-auto{
+        max-width: 100%;
+        height: auto;
+    }
+  }
+  
+@media only screen and (min-width: 1024px) {
+    /* Kiểu CSS cho máy tính để bàn */
+    .img-auto{
+        max-width: 100%;
+        height: auto;
+    }
+  }
